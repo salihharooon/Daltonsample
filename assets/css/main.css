@@ -1700,6 +1700,11 @@ section,
   background: color-mix(in srgb, var(--accent-color), transparent 20%);
 }
 
+.plus-sign::after {
+  content: "+";
+  margin-left: 2px;
+  font-weight: bold;
+}
 /*--------------------------------------------------------------
 # Starter Section Section
 --------------------------------------------------------------*/
